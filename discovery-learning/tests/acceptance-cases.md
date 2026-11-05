@@ -1,27 +1,28 @@
-# Discovery Learning acceptance cases
+# Discovery Learning course-development acceptance cases
 
 status: draft
+execution_status: not_run
 
 | ID | Input / condition | Expected behavior |
 |---|---|---|
-| T01 | User starts a course | Short relevant scene without a prerequisite examination |
-| T02 | User selects A | Correct grounded exploration; no grade for a preference |
-| T03 | User selects B | Different emphasis, same mandatory learning content |
-| T04 | User says 'continue' | Brief explanation and progression |
-| T05 | User answers a prediction incorrectly | Targeted correction, not an endless retry loop |
-| T06 | User refuses free text | Alternative low-friction participation |
-| T07 | User asks to go deeper | Optional explanation without deleting core coverage |
-| T08 | Subject material inaccessible | Explicit access limitation; no fabricated facts |
-| T09 | Hypothetical economic values | Clear labels, correct units and separate calculation check |
-| T10 | Model without widgets | A/B/continue works through ordinary chat |
-| T11 | Single correct A/B choice | No unsupported mastery or retention claim |
-| T12 | Earlier concept naturally reappears | Optional retrieval before explanation |
-| T13 | Callback has no subject relevance | Omit it; no forced repetition quota |
-| T14 | Concept confusion persists | Later contrasting scenario and accurate feedback |
-| T15 | Same information appears in different contexts | Terminology and core meaning remain stable |
-| T16 | Safety-critical training | Mandatory competence gates override optionality |
-| T17 | Course spans one sitting | No claim that this equals multi-day spacing |
-| T18 | Two AI providers run same modules | Coverage, source status and fallback comparable |
+| T01 | New target course repository | Inspect current files, instructions and branch before editing |
+| T02 | Empty target repository | Generate self-contained runtime scaffolding, not a skill dependency |
+| T03 | Learner sends only course URL | Short welcome and first module, or honest access limitation |
+| T04 | Learner selects A | Grounded exploration and no score for preference |
+| T05 | Learner selects B | Different emphasis, same mandatory learning insights |
+| T06 | Learner says continue | Brief explanation and progress, unless mandatory assessment gate |
+| T07 | Learner prediction wrong | Precise correction without compulsory repeated attempts |
+| T08 | Learner declines writing | Low-friction option and nonblocking fallback |
+| T09 | No visual tool available | Same required understanding through text/structured table |
+| T10 | Visual interaction available | Used only where materially useful; not automatic decoration |
+| T11 | Concept naturally returns | Recall opportunity and new application, not verbatim repetition |
+| T12 | Correct A/B guess | Never described as proven mastery |
+| T13 | Same course in two models | Equivalent core content and relevant caveats |
+| T14 | Safety-critical course | Mandatory required competence and supervision not waived |
+| T15 | Hypothetical calculations | Separate numerical check, units, assumptions and correct labels |
+| T16 | Capability knowledge stale | Revalidate at project start or mark evidence unavailable |
+| T17 | Platform marketing page lists widgets | Feature documented; not silently marked tested |
+| T18 | Course developer proposes merge | PR and test evidence; actual merge only with owner approval |
 
-## Execution evidence
-This file defines **planned tests**. It does not certify that the tests were run. Log environment, model, date, exact input, observed output, deviations and remediation.
+## Evaluating the generated course
+Keep target platform and model, exact sample input, observed result, human judgment, date and evidence links. Do not claim execution before tests have actually run. Evaluate educational retention and completion independently; interactive features alone do not prove improved learning.

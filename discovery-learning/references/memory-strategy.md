@@ -1,25 +1,23 @@
-# Natural memory reinforcement
+# Natural memory reinforcement — course design
 
 status: draft
 
-## Design objective
-Increase chances of durable understanding without turning the narrative course into a series of compulsory tests.
+## Objective
+Help the developer skill author courses where previous knowledge returns when it is relevant, without a compulsory quiz after every scene.
 
-## Concept-map-driven callbacks
-For each durable concept define a stable ID, prerequisite IDs, confusion pairs, first presentation, natural later-use opportunities, and observable evidence. Return to concepts when the new scenario *needs* them, not after an arbitrary number of turns.
+## Concept-map design
+Give stable concept IDs, prerequisites, common confusion pairs, first appearance, later use opportunities, an optional visual representation and observable learner evidence. Keep key concepts and their dependencies in the subject repository, not in this general skill.
 
-## Techniques
-1. **Retrieval opportunity:** Before a concept is explained again, allow a short mental prediction, A/B comparison, or optional recollection. Offer the explanation immediately after the attempt or if the learner declines.
-2. **Elaboration:** Connect the concept to causes, consequences, boundaries and counterexamples.
-3. **Interleaving/contextual variation:** Combine related concepts in later scenarios to help distinguish them, without introducing too many new variables simultaneously.
-4. **Worked examples → transfer:** Start with a visible solution and later vary one assumption, then combine variables when appropriate.
-5. **Spaced encounters:** Return to a concept in later course modules when it naturally matters. Repetition within one sitting is **not** equivalent to long-term spaced practice across days.
+## Core techniques
+- **Retrieval:** In a later situation, optionally ask learner to predict or recall a key concept before revealing a conclusion. A/B recognition is weaker evidence than unaided explanation.
+- **Elaboration:** Link concepts through causes, practical effects, assumptions and counterexamples.
+- **Interleaving:** Compare related but different mechanisms in an unfamiliar scenario once basics are in place.
+- **Worked example and transfer:** Model one solution accurately, then vary a meaningful parameter; avoid too many simultaneous variables.
+- **Visual callback:** Revisit a compact, consistent concept map or diagram in a new applied context; don't simply show the same artwork again.
+- **Within-course spacing:** Revisit at later natural points, while acknowledging that encounters in a single session do not substitute for repetition over days.
 
-## Track if the environment supports it
-Current module, introduced concept IDs, observed misconceptions, answered vs skipped opportunities, and suggested future callbacks. Treat these as temporary teaching context, not a guarantee of persistent memory.
+## Low-friction instruction
+Do not impose fixed question quotas, compulsory flashcards, automatic grading of exploratory choices or long written responses merely to continue. Allow a learner to observe the explanation and proceed, except when domain safety or examination standards require demonstration.
 
-## Assess honestly
-Distinguish *presented*, *recognized*, *recalled* and *applied*. A correct A/B choice is only weak evidence. Lack of a response is *unknown*, not incorrect. Use later transfer if stronger evidence matters. Never report validated memory improvement without an actual study.
-
-## Avoid
-Compulsory flashcard loops; meaningless mnemonic associations; repeated identical questions; fixed repetition quotas; unsupported claims about 'optimal' schedules; turning every scene into a test.
+## Design and evaluation
+Map every callback to an actual later objective. Maintain a note of whether evidence is absent, recognition, independent recall or transfer. If runtime context/memory is unavailable, the course's planned callbacks still work without user tracking. Test delays and retention before claiming long-term memory improvement.

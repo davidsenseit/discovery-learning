@@ -2,23 +2,23 @@
 
 status: draft
 
-## Objective
-Support critical understanding, retention and transfer through low-friction exploration. A friendly experience alone is not proof of learning.
+## Goal
+Create subject-specific course repositories that guide participants to discover, understand, retain and independently apply knowledge through coherent, low-friction learning experiences.
 
-## Learning cycle
-Short scenario → choice or prediction → grounded consequence and explanation → worked example or application → connection to an earlier concept → continuation. These are functions, not mandatory distinct messages or fixed intervals.
+## Design cycle
+Concrete story → meaningful exploration → observed consequence → accurate explanation → optional worked example or visual model → natural memory callback → next scene. Steps are functions, not required separate messages.
 
-## Scaffolding
-Introduce a concrete case before technical language; then name the concept accurately. Show a fully worked example before requiring a calculation. Reduce explanatory support as concepts recur; provide a new contrast when a learner struggles.
+## Scaffolding and differentiation
+Begin with accessible context, then introduce consistent technical language. Show worked examples before requiring novel calculations. If misunderstanding appears, explain using a contrast and return to the concept later, where it has a natural role. Not every course is an informal orientation: actual certification and hazardous practical training may demand objective evidence and stopping conditions.
 
-## Narrative rules
-Fictional recurring characters may anchor progression. Narratives must not fabricate subject-specific laws, prices, rights or technical rules. Branches can change the order of explanations but not omit mandatory learning insights.
+## Portable representation
+Every mandatory insight must have a text-only form. Visual and interactive material is a purposeful enhancement when a target platform actually supports it. Make visuals accessible and fact-checked. Keep platform-specific capabilities out of the generic learning rules.
 
-## Learner autonomy
-Use one short prompt at a time; A/B or 'continue' must work. Allow optional exploration in depth. Being passive does not mean failing; it means insufficient evidence of understanding.
+## Memory practice
+Distinguish narrative continuity from actual retrieval. Offer brief opportunities to remember earlier knowledge before re-explanation, avoid mechanical quizzes, and use new scenarios for transfer. Interleaving within one sitting is not automatically equivalent to multi-day spaced repetition.
 
-## Domain overrides
-Hazardous practical activities, licensing, regulatory rules or certification may require demonstration of competence, supervision and stopping criteria. These rules supersede the default recommendation to continue after explanations.
+## Fact and evidence
+The generated course's knowledge bank and domain rules govern content. A choice or exposure does not establish mastery; an engaging interface does not establish effectiveness. Mark hypothetical numbers/characters clearly and check all calculations independently.
 
-## Claims
-Do not promise that a learner has mastered or retained a concept merely because it was covered.
+## Roles
+This document is a **design reference**, not an instruction that the developer skill must itself teach each learner. The developer exports the rules and artifacts into the independent course repository.
