@@ -6,34 +6,39 @@ learning_objectives: [OBJ-001]
 knowledge_source: [path/to/subject/content]
 concepts_introduced: [CON-001]
 concepts_revisited: [CON-000]
+visual_intent: [none | process | system-map | comparison | variable-model | spatial | illustration]
+visual_fallback: [equivalent descriptive text / table]
 
 ## Opening scene
-[2–4 sentences grounded in subject facts, clearly fictional when necessary.]
+[Brief realistic context, fictional details explicitly distinguished.]
 
 ## First exploration
 A – [Meaningful path]
 B – [Meaningful path]
 
 ## Explanation for A
-[Explain consequence and relevant concept.]
+[Grounded consequences.]
 
 ## Explanation for B
-[Different exploration order, no loss of mandatory insight.]
+[Grounded alternate emphasis; same mandatory coverage.]
 
 ## Must be covered regardless of path
-[Essential concepts, caveats, risks and alternatives.]
+[Objective-linked definitions, risks, exceptions, relevant alternative perspectives.]
 
-## Natural recall/callback
-[Relevant earlier concept and short optional prediction.]
+## Natural memory callback
+[Earlier concept, when it becomes relevant, non-blocking retrieval opportunity.]
+
+## Visual learning
+[Why this representation adds understanding; sources, labels/units, accessibility, interactivity behavior and fallback.]
 
 ## Worked example or experiment
-[Correct units, assumptions, calculation, alternative value.]
+[Transparent formula, correct units, assumptions, calculation and second comparison state.]
 
-## Misconceptions
-[What wrong inference might arise and how to correct it.]
+## Misconceptions and feedback
+[Counterexamples and correction without compulsory retry.]
 
-## Fallback for continue / don't know
-[Short explanation; proceed without claiming mastery.]
+## No-interaction fallback
+[Short explanation, proceed unless formal safety gate applies.]
 
-## Next module
-[Transition using previous concept.]
+## Transition
+[Link to next concept/module.]

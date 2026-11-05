@@ -2,23 +2,26 @@
 
 status: draft
 
-## Exploration choice
-'Would you first investigate A: the cash transaction or B: the member's ownership?' Both responses are explanatory pathways; neither is graded. Cover both key ideas eventually.
+## Core
+Use scene → meaningful choice → consequence → grounded explanation → continuation. A/B/continue is portable. Avoid forced essay answers and quiz fatigue. Exploratory choices are not scored.
 
-## Predict then reveal
-Present a plausible consequence question before explaining the outcome. Give one clear contrast and the governing principle. Allow 'show me' and 'continue'.
+## Exploration and prediction
+Offer two directions or a consequence prediction. Reveal the explanation after a response or 'continue'. Don't treat a preference as an error.
 
 ## Spot the misconception
-Present an incorrect argument, ask which assumption is misleading, then explain without embarrassment or mandatory retries.
+Contrast plausible but mistaken reasoning with a precise correction and counterexample. Follow up naturally in later relevant scenarios.
 
 ## Compare perspectives
-Two fictional participants hold rationally different preferences or constraints. Show relevant trade-offs; do not imply a single ideologically preferred conclusion.
+Use fictional actors with differing constraints. Include risks and realistic alternatives; do not claim one correct preference where facts permit more than one.
 
 ## Change one variable
-Use a worked numerical example, then vary one assumption and ask for a prediction. Distinguish units, timing, net/gross and certainty. Never pass off hypothetical values as real.
+Begin with a checked worked example, change one quantity at a time, describe outputs and mathematical assumptions. Interactive controls are optional; show equivalent text states.
 
-## Observe instead of answer
-Have two characters discuss a relevant dilemma; reveal the explanation to a learner who prefers reading rather than interacting. Use sparingly because it gives weaker evidence of independent learning.
+## Visual interactions
+Choose charts, diagrams and variable models only where they support the objective. A chart can make a relationship visible; a slider can let a learner test causality. If unavailable or unsupported, use a text/table comparison. See [visual learning](visual-learning.md).
 
-## Portable controls
-Offer text choices A/B and commands 'continue', 'explain', 'don't know' in the learner's language. Buttons, diagrams, charts and sliders are optional enhancements, never required for course completion.
+## Passive learner
+If the learner declines input, explain the key insight and continue. No unsupported claim of mastery.
+
+## Platform contract
+At development, consult [capability discovery](capability-discovery.md). At learner runtime, use tools actually exposed, not a presumed platform feature. Do not block teaching while researching capabilities.

@@ -1,30 +1,34 @@
 # Course design template
 
 status: draft
+discovery_learning_version: 0.2.0
 
-## Course purpose and target audience
-[Who is learning; what independent decisions should they be able to make?]
+## Repository URL and access
+[GitHub owner/repo, default branch, existing instructions inspected.]
+
+## Audience, purpose and domain constraints
+[Who will learn, what must be understood, what safety/certification gates override non-blocking flow?]
 
 ## Knowledge authority and status
-[Paths to subject knowledge, glossary, dates, sources and draft/verified rules.]
+[Sources, glossary, versioning, source confidence, draft/verified criteria.]
 
-## Mandatory coverage
-[Modules, learning-objective IDs, order, critical safety or certification gates.]
+## Target AI platforms
+[Deployment variants, dated official source checks, exposed capabilities, tested outcomes, unknowns, fallback; link to local quality/platform-capabilities.md.]
 
-## Narrative arc
-[Recurring fictional situation or perspective; distinguish fiction from facts.]
+## Learning objectives and module progression
+[Stable objective IDs, sequence, depth and mandatory coverage.]
 
-## Concept map
-[Link to concept-map-template filled with stable IDs and later callbacks.]
+## Narrative and visual learning plan
+[Recurring fictional perspective, concept illustrations, diagrams, interactive experiments where justified, equivalent text.]
 
-## Interaction contract
-[A/B/continue fallback, optional depth, no compulsory long free-text unless domain requires it.]
+## Memory strategy and concept map
+[Prerequisites, conceptual confusion pairs, natural callbacks, recognition vs retrieval vs transfer.]
 
-## Assessment
-[Observable evidence, likely misconceptions, feedback and safe domain overrides.]
+## Learner runtime
+[Repository-local README/AGENTS/onboarding/discovery modules; A/B/continue; no skill dependency.]
 
-## Model portability
-[Text-only implementation, missing file fallback, local module state.]
+## Assessment and quality
+[Evidence for understanding, safe gates, factual/mathematical review, cross-platform and visual tests.]
 
-## Validation
-[Structural tests, fact checks, independent mathematical verification, model tests and user study.]
+## Version provenance
+[Which version of Discovery Learning generated/reviewed the course; this is not a runtime dependency.]

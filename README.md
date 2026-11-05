@@ -1,27 +1,25 @@
 # Discovery Learning
 
-An open, provider-independent Agent Skill for designing, reviewing, and delivering narrative, discovery-based learning with natural memory reinforcement.
+An open Agent Skill for **developing and reviewing independent, AI-guided courses**, combining narrative discovery, meaningful memory reinforcement and purposeful visual learning.
 
-**Version:** 0.1.0 — **Status:** draft. Inspired by the Södra learning-system architecture, but contains no Södra-specific knowledge.
+**Version:** 0.2.0 (proposed, draft). **License:** Apache-2.0.
 
-## What it does
-Guides a learner through short realistic situations, meaningful choices, clear consequences and explanations, followed by natural re-use of previously introduced concepts. It reduces mandatory writing without making unsupported claims of mastery. It also supports course-design and quality-review workflows.
+## Architecture
+One GitHub repository per course. Discovery Learning acts as a **development and quality-assurance skill**, not as a dependency that learners must install.
 
-## Get started
-See [discovery-learning/SKILL.md](discovery-learning/SKILL.md). Install the `discovery-learning/` folder as an Agent Skill in a compatible AI environment; alternatively load the instruction and reference files directly in a compatible assistant. The Skill format cannot guarantee automatic activation from a repository URL in every AI service.
+1. Use this skill in a development AI to inspect or design a course repository.
+2. Discover target AI platforms and their current capabilities, documenting source dates and runtime limitations.
+3. Design objective-linked explanations, scenarios, memory callbacks, visuals and text-only equivalents.
+4. Generate a **self-contained course repository**: onboarding, AGENTS instructions, pedagogical guidance, knowledge, modules, glossary and quality tests.
+5. Test and propose changes via issues, branches and pull requests. Do not merge without the owner's approval.
+6. Learners paste the **course repository URL**, not the skill URL, into a compatible AI service. The course must work without this skill or any proprietary UI.
 
-The subject-specific course supplies its own knowledge bank, glossary, objectives, factual status, assessment obligations and safety rules. This skill does not replace them. For a URL-first course, bundle the relevant pedagogical instructions in the course repository so the course remains self-contained.
+See [the skill](discovery-learning/SKILL.md), [course repository architecture](discovery-learning/references/course-repository-architecture.md), [visual strategy](discovery-learning/references/visual-learning.md), and [platform verification](discovery-learning/references/capability-discovery.md).
 
-## Contents
-- `discovery-learning/SKILL.md` — entrypoint and DESIGN/TEACH/REVIEW workflows
-- `discovery-learning/references/` — pedagogy, memory, interaction, assessment, research limitations
-- `discovery-learning/assets/` — course, module and concept-map templates
-- `discovery-learning/tests/` — model portability/quality test cases and offline structural validator
+## Principle
+**Learning goal → pedagogical activity → suitable representation → available tool → text fallback.**
 
-## Scope and evidence
-The skill applies retrieval practice, meaningful callbacks, contextual variation, worked examples and formative feedback, but its particular blend is **not empirically validated**. In safety-critical or credentialed training, domain-required competency demonstration takes priority over the default non-blocking progression. Never equate exposure with learning.
+A documented capability is not proof it is enabled. Project-time verification and lightweight runtime checks are distinct. A web check requires actual browsing access; otherwise mark claims as unverified/stale.
 
-## Development
-Use issues for scoped improvements, branches and pull requests for changes; verify structure, links, scenarios, factual boundaries and multi-model behavior before a release. Only merge after repository-owner approval.
-
-License: Apache-2.0 (see [LICENSE](LICENSE)).
+## Development state
+The skill's instructional design has not been empirically validated. All example projects, capability profiles and tests are draft until checked. Safety-critical courses may require actual competency gates and supervised practice.
